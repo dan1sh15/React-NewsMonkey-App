@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": "bleacher-report",
+                "name": "Bleacher Report"
+            },
+            "author": "Gary Davenport",
+            "title": "2023 Fantasy Football Mock Draft: Latest Projections Entering NFL Preseason",
+            "description": "The NFL preseason is underway, and in just over a month the\nKansas City Chiefs and Detroit Lions will kick off the 2023 campaign—and with\nit another year of…",
+            "url": "https://bleacherreport.com/articles/10084953-2023-fantasy-football-mock-draft-latest-projections-entering-nfl-preseason",
+            "urlToImage": "https://media.bleacherreport.com/image/upload/c_fill,g_faces,w_3800,h_2000,q_95/v1691037337/wp7daqj0gozcm529fmvs.jpg",
+            "publishedAt": "2023-08-04T11:00:00Z",
+            "content": "Jared GoffStacy Revere/Getty Images\r\n11.01: San Francisco 49ers Defense\r\n11.02: Zay Flowers, WR, BAL\r\n11.03: Kirk Cousins, QB, MIN\r\n11.04: Jakobi Meyers, WR, LV\r\n11.05: Devin Singletary, RB, HOU\r\n11.… [+2773 chars]"
+        },
+        {
+            "source": {
+                "id": "le-monde",
+                "name": "Le Monde"
+            },
+            "author": "Le Monde",
+            "title": "Comment les femmes ont-elles obtenu leur propre Coupe du monde de football ? Comprendre en trois minutes",
+            "description": "VIDÉO La FIFA a organisé la première Coupe du monde féminine en 1991, soixante et un ans après celle des hommes. Avant cela, les footballeuses du monde entier navaient pas dautre choix que de saffronter lors de compétitions « pirates ».",
+            "url": "https://www.lemonde.fr/comprendre-en-3-minutes/article/2023/08/02/comment-les-femmes-ont-elles-obtenu-leur-propre-coupe-du-monde-de-football-comprendre-en-trois-minutes_6184166_6176282.html",
+            "urlToImage": "https://img.lemde.fr/2023/07/31/0/0/5616/3744/1440/960/60/0/4da8715_1690796565576-000-arp2694337.jpg",
+            "publishedAt": "2023-08-02T04:30:03Z",
+            "content": "Le 16 novembre 1991 à Guangzhou, en Chine, la Norvégienne Tone Haugen donne le coup denvoi de la première Coupe du monde féminine de football. Son geste est symbolique : il met fin à vingt ans de lut… [+995 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+            "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+            "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+            "publishedAt": "2020-04-27T07:20:43Z",
+            "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+        }
+    ]
+}
