@@ -11,7 +11,7 @@ export class News extends Component {
         country: "in",
         pageSize: 8,
         category: "general",
-    };
+    }; 
 
     static propTypes = {
         country: PropTypes.string,
@@ -42,7 +42,7 @@ export class News extends Component {
     async updateNews(){
         // console.log(this.state.page);
         this.props.setProgress(10);
-        const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=eebad0be27954963859dfd1fcea9d9f6&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+        const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         this.setState({loading: true}); // gif visible
         let data = await fetch(url);
         this.props.setProgress(30);
@@ -65,7 +65,7 @@ export class News extends Component {
     fetchMoreData = async () => {
         console.log(this.state.page);       
         this.setState({page: this.state.page + 1});
-        const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=eebad0be27954963859dfd1fcea9d9f6&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
+        const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page + 1}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url);
         let parsedData = await data.json();
         // console.log(parsedData);
@@ -78,7 +78,7 @@ export class News extends Component {
   render() {
     return (
         <>
-        <h1 style={{textAlign: "center", fontWeight: "bold", margin: "30px 0"}}>NewsMonkey - Top {this.capitalize(this.props.category)} Headlines</h1>
+        <h1 style={{textAlign: "center", fontWeight: "bold", marginTop: "90px", marginBottom: "30px"}}>NewsMonkey - Top {this.capitalize(this.props.category)} Headlines</h1>
         {this.state.loading && <Spinner />} {/* This is the spinner component call to show loading gif*/}
         <InfiniteScroll
           dataLength={this.state.articles.length}
